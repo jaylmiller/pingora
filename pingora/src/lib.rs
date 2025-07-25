@@ -99,3 +99,5 @@ pub mod prelude {
     #[cfg_attr(docsrs, doc(cfg(feature = "time")))]
     pub use pingora_timeout::*;
 }
+
+pub use pingora_core::apps::ReusedHttpStream;
